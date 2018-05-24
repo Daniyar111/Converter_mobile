@@ -1,15 +1,15 @@
-package com.example.saint.convertproject;
+package com.example.saint.convertproject.data.entity;
 
 /**
  * Created by saint on 19.03.2018.
  */
 
-public class Currency {
+public class CurrencyModel {
 
     private String name;
     private double rate;
 
-    public Currency(String name, double rate){
+    public CurrencyModel(String name, double rate){
         this.name = name;
         this.rate = rate;
     }

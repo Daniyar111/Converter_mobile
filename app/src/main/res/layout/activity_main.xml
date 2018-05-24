@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/colorTheme"
     android:orientation="vertical"
-    tools:context="com.example.saint.convertproject.MainActivity">
+    tools:context="com.example.saint.convertproject.ui.main.MainActivity">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"

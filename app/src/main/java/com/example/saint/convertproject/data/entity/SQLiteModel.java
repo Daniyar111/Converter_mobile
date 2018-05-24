@@ -1,4 +1,4 @@
-package com.example.saint.convertproject;
+package com.example.saint.convertproject.data.entity;
 
 import java.io.Serializable;
 

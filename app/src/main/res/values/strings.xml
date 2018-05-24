@@ -1,12 +1,15 @@
 <resources>
     <string name="app_name">Converter</string>
+    <string name="conversion">Conversion</string>
+    <string name="converter">Converter</string>
+    <string name="currency">currency</string>
     <string name="length">length</string>
     <string name="mass">mass</string>
-    <string name="currency">currency</string>
-    <string name="type">Type any value...</string>
     <string name="not_work">The Internet doesn\'t work!</string>
-    <string name="turn_on">Turn it on</string>
     <string name="ok">OK</string>
+    <string name="turn_on">Turn it on</string>
+    <string name="type">Type any value…</string>
+
     <string-array name="length">
         <item>Millimeter</item>
         <item>Centimeter</item>

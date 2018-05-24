@@ -1,4 +1,6 @@
-package com.example.saint.convertproject;
+package com.example.saint.convertproject.data.network;
+
+import com.example.saint.convertproject.data.entity.CurrencyGetter;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

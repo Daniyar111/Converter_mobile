@@ -1,4 +1,4 @@
-package com.example.saint.convertproject;
+package com.example.saint.convertproject.data.entity;
 
 /**
  * Created by saint on 19.03.2018.

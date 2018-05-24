@@ -1,10 +1,8 @@
-package com.example.saint.convertproject;
+package com.example.saint.convertproject.config;
 
-/**
- * Created by saint on 09.03.2018.
- */
+public class Constants {
 
-public class LengthSolver {
+    public static final String BASE_URL = "http://api.fixer.io/";
 
     //main constant is from millimeter to
     public final static double MM = 1;
@@ -16,7 +14,10 @@ public class LengthSolver {
     public final static double KM = 0.000001;
     public final static double MILE = 0.00000062137;
 
-    public static double converter(double x, double y){
-        return y/x;
-    }
+    //main constant is from gram to
+    public final static double GRAM = 1;
+    public final static double OUNCE = 0.03527;
+    public final static double POUND = 0.0022;
+    public final static double KG = 0.001;
+    public final static double TONNE = 0.000001;
 }

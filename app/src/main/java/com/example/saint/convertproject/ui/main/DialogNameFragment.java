@@ -1,4 +1,4 @@
-package com.example.saint.convertproject;
+package com.example.saint.convertproject.ui.main;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,7 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.Button;
-import android.widget.TextView;
+
+import com.example.saint.convertproject.R;
 
 /**
  * Created by saint on 20.03.2018.
@@ -16,12 +17,8 @@ import android.widget.TextView;
 
 public class DialogNameFragment extends DialogFragment implements View.OnClickListener {
 
-    private TextView textViewNotWork, textViewTurnOn;
-    private Button buttonOk;
-
     public static DialogNameFragment newDialog(){
-        DialogNameFragment dialogNameFragment = new DialogNameFragment();
-        return dialogNameFragment;
+        return new DialogNameFragment();
     }
 
     @Nullable
@@ -30,13 +27,10 @@ public class DialogNameFragment extends DialogFragment implements View.OnClickLi
 
         View view = inflater.inflate(R.layout.dialog_fragment, container, false);
 
-        getDialog().getWindow().requestFeature(Window.FEATURE_NO_TITLE);
-
-        textViewNotWork = view.findViewById(R.id.textViewNotWork);
-        textViewTurnOn = view.findViewById(R.id.textViewTurnOn);
-        buttonOk = view.findViewById(R.id.buttonOk);
-
-        buttonOk.setOnClickListener(this);
+        if(getDialog().getWindow() != null){
+            getDialog().getWindow().requestFeature(Window.FEATURE_NO_TITLE);
+        }
+        view.findViewById(R.id.buttonOk).setOnClickListener(this);
 
         return view;
     }

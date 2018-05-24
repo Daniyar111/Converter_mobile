@@ -13,16 +13,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LengthActivity" />
-        <activity android:name=".MassActivity" />
-        <activity android:name=".CurrencyActivity"></activity>
+        <activity android:name=".ui.length.LengthActivity" />
+        <activity android:name=".ui.mass.MassActivity" />
+        <activity android:name=".ui.currency.CurrencyActivity"></activity>
     </application>
 
 </manifest>
